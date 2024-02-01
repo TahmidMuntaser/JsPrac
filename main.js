@@ -75,7 +75,42 @@ console.log(qq.substring(0, 2).toUpperCase());
 console.log(qq.split(''));
 
 const as = 'abul , kalam, khalek';
-console.log(as.split(','));
+console.log(as.split(',')); // split all the name
+
+//Arrays
+
+const numbers = new Array(2, 2, 5, 8, 99, 35); //constructor method
+
+console.log(numbers);
+
+const colors = ['red', 'blue', 'yellow', 'black', 12];
+console.log(colors);
+
+colors[2] = 'green';
+console.log(colors);
+
+// add value
+colors.unshift('pink'); // add fornt
+console.log(colors);
+
+colors.push('purple'); // add last
+console.log(colors);
+
+colors.shift(); // delete fornt
+console.log(colors);
+
+colors.pop(); // delete last
+console.log(colors);
+
+console.log(colors.indexOf('blue'));
+
+colors[8] = '#000000';
+console.log(colors);
+
+console.log(Array.isArray(colors));
+
+
+
 
 
 
