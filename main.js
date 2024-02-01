@@ -52,6 +52,31 @@ let age1 = 33;
 
 
 
+const name = 'abul';
+const ageg = 22;
+const isHot = false;
+const rating = 5.2;
+const x = null;
+const y = undefined;
+// const z; //error
+
+console.log(typeof name);
+
+// concatanation
+
+const qq = 'abul';
+const ww = 'mal';
+
+console.log('My name is ' + qq +' '+ ww+' abdul mohit');;
+console.log(`My name is ${name}`); //template string
+console.log(qq.length); 
+console.log(qq.toUpperCase());
+console.log(qq.substring(0, 2).toUpperCase());
+console.log(qq.split(''));
+
+const as = 'abul , kalam, khalek';
+console.log(as.split(','));
+
 
 
 document.write('Hello!!');
