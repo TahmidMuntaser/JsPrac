@@ -54,4 +54,42 @@ console.log(person.address.city);
 console.log(person.address);
 
 
+//desturcting method
+const {fristName, lastname, address:{city}} = person;
+
+console.log(fristName, city);
+
+person.email = 'azazmamatourandtravels@gmail.com';
+console.log(person.email);
+
+
+const todo = [ //three obj in an array
+    {
+        id: 1,
+        text: 'Nothing',
+        isCompleted: true
+    },
+
+    {
+        id: 2,
+        text: 'gaming',
+        isCompleted: true
+    },
+
+    {
+        id: 3,
+        text: 'sleeping',
+        isCompleted: false
+    }
+];
+
+
+console.log(todo[1].text);
+
+
+
+
+
+
+
 
