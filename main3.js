@@ -47,3 +47,24 @@ switch (res) {
         console.log('I dont give a shit');
         break;
 }
+
+//function:
+
+function square(num){ 
+    var res1 = num*num;
+    document.write("Res = "  + res1 + "<br>");
+}
+
+square(2)
+function mul(num1, num2){ 
+    var res1 = num1*num2;
+   return res1;
+} document.write("Res = "  + mul(2, 8) + "<br>");
+
+
+;
+
+
+
+// console.log(res1);
+// document.write("Res = "  + res1 + res1 + "<br>");
