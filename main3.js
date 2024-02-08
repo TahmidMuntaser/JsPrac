@@ -68,3 +68,30 @@ function mul(num1, num2){
 
 // console.log(res1);
 // document.write("Res = "  + res1 + res1 + "<br>");
+
+
+
+
+greetings();
+greetings(); // we can call before initialization
+
+
+function greetings(){
+    console.log("Hello Dear!!"); // dont need in console
+    document.write("Hello Dear!!" + '<br>');
+}
+
+
+
+// function expression
+
+const speak = function(){
+    console.log("GOOD DAY!!"); // dont need in console
+    document.write("good day!!" + '<br>');
+}
+
+speak(); // we can't call before initialization
+speak();
+
+ 
+
