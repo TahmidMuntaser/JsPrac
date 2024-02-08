@@ -85,13 +85,16 @@ function greetings(){
 
 // function expression
 
-const speak = function(){
-    console.log("GOOD DAY!!"); // dont need in console
-    document.write("good day!!" + '<br>');
+
+
+
+const speak = function(fullname){
+    console.log(`GOOD DAY!! ${fullname}`); // dont need in console
+    document.write(`good day!! ${fullname} <br>`);
 }
 
-speak(); // we can't call before initialization
-speak();
+speak(', Abul'); // we can't call before initialization
+speak(', Kuddus'); 
 
  
 
