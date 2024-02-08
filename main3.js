@@ -100,7 +100,7 @@ speak(', Kuddus');
 // array functions
 
 var sum = function(){
-    var a = 5;
+    var a = 5;0
     var b = 44;
     return a+b;
 }
@@ -114,3 +114,27 @@ const sum2 = (b2) => a2+b2;
 
 console.log(sum2(4));
 
+// factory function
+
+
+
+function createCircle(radious){
+    return {
+        radious,
+        // position: position,
+    
+        // isVisible: true,
+        
+        draw: function(){
+            console.log('draw');
+        }
+    };
+
+    // return circle;
+}
+
+const circle = createCircle(1);
+console.log(circle);
+
+const circle2 = createCircle(5);
+console.log(circle2);
