@@ -120,7 +120,7 @@ console.log(sum2(4));
 
 function createCircle(radious){
     return {
-        radious,
+        radious, 
         // position: position,
     
         // isVisible: true,
