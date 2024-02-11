@@ -3,8 +3,10 @@
 
  //getElementById
 
+const hd1 = document.getElementById('heading1');
+hd1.innerHTML = 'Changed header'; // it changes the content of the element with id heading1
 
-document.getElementById('heading1').innerHTML = 'Changed'; // it changes the content of the element with id heading1
+// document.getElementById('heading1').innerHTML = 'Changed'; // it changes the content of the element with id heading1
 
 document.getElementById('para1').innerHTML = "Changed Paragraph"; // it changes the content of the element with paragraph 1
 
@@ -20,3 +22,14 @@ document.addEventListener('DOMContentLoaded', function() {
         element.innerHTML = 'class changed';
     }
 });
+
+// hd1.remove();
+hd1.style.background = 'red';
+hd1.style.color = 'white';
+
+
+const heading = document.getElementsByTagName('h1');
+heading[1].style.color = 'blue';
+heading[1].innerHTML ='This is heading 2';
+// heading[1].remove();
+
