@@ -33,3 +33,26 @@ heading[1].style.color = 'blue';
 heading[1].innerHTML ='This is heading 2';
 // heading[1].remove();
 
+// querySelector
+
+const btn1 = document.querySelector('.clk');
+// console.log(document.querySelector('.clk'));
+btn1.style.color = 'blue';
+
+const pp1 = document.querySelector('#para1');
+// console.log(document.querySelector('#para1'));
+pp1.textContent = "OMG!!!";
+
+// document.querySelector('button'); // with tag
+
+document.querySelector('.item');
+console.log(document.querySelectorAll('.item'));
+// querySelectorAll it shows all item
+
+
+const ul = document.querySelector('.items');
+ul.firstElementChild.style.color = 'Green';
+ul.lastElementChild.style.background = 'red';
+ul.children[2].textContent = 'Text Item';
+ul.children[1].remove();
+ 
