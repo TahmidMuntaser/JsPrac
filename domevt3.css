@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.parent{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+
+    
+}
+
+.red{
+    height: 40px;
+    width: 80px;
+    background-color: red;
+}
+
+.green{
+    height: 40px;
+    width: 80px;
+    background-color: green;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.blue{
+    height: 40px;
+    width: 80px;
+    background-color: blue;
+}
+
+.circle{
+    height: 200px;
+    width: 200px;
+    background-color: turquoise;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top:50%;
+    left:50%;
+
+}
